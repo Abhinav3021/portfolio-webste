@@ -25,7 +25,9 @@ export default function Hero() {
            >
             <span className="inline-block group-hover:animate-wave origin-bottom-left">👋</span> Let's Connect
           </button>
-          <button className="bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-700 transition">
+          <button className="bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-700 transition"
+          onClick={() => window.open("https://drive.google.com/file/d/1WWuO2eW9qTQmHiSd6yvrDxEMbe7L5uCy/view", "_blank")}
+          >
             My Resume ↓
           </button>
         </div>
